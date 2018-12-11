@@ -1,0 +1,38 @@
+/*
+Theme Name: kebab
+Theme URI: https://berlin_program_starter.com/
+Description: Created by team kebab
+Version: 1.0
+Author: kebabs
+Author URI: https://berlin_program_starter.com/
+*/
+
+@charset "UTF-8";
+
+/*
+* default value reset
+*/
+body, div, p, h1, h2, h3, h4, h5 img {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Mplus 1p", 'Titillium Web', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: $black;
+}
+
+a:hover {
+  color: rgb(138, 192, 205);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}

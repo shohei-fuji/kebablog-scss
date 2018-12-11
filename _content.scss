@@ -1,0 +1,61 @@
+#content {
+    float: left;
+    width: 60%;
+    height: 200px;
+    padding-bottom: 20px;
+    margin: 25px 0 30px 20px;
+    display: flex;
+    flex-direction: column;
+    border-style: ridge;
+  }
+  
+  .article {
+    position: absolute;
+    padding: 0 20px 0 20px;
+    margin: 0 0 0 140px;
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  .post {
+    margin: 30px;
+    width: 40%;
+    height: 200px;
+  }
+  
+  .post-picture {
+    width: 150px;
+    height: 150px;
+    float: left;
+  }
+  
+  .post h2 {
+    padding: 0 20px 0 20px;
+    
+  }
+  
+  .entry-date {
+    color: $black;
+    margin-left: 20px;
+    float: left;
+  }
+
+  .author {
+    color: $black;
+    margin-left: 20px;
+    float: left;
+  }
+
+
+  .sentence {
+    padding: 0 10px 40px 10px;
+    width: 80%;
+    height:80px;
+    line-height: 20px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-text-overflow: clip;
+    -webkit-line-clamp: 6;
+    
+  }
+  
