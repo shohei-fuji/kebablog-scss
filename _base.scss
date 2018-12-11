@@ -36,3 +36,8 @@ a:hover {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
